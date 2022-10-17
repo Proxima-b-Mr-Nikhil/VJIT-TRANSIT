@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="50dp">
+    <LinearLayout
+        android:background="@color/bg_bubble_watbot"
+        android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="@dimen/_5sdp">
+            <RelativeLayout
+                android:id="@+id/rvMain" android:layout_width="fill_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20.0dip"
+                    app:cardElevation="1.0dip"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ListView
+                            android:id="@+id/listView"
+                            android:textIsSelectable="true"
+                            android:transcriptMode="normal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                        </ListView>
+                        <ProgressBar
+                            android:layout_marginTop="100dp"
+                            android:id="@+id/progressBar"
+                            android:visibility="visible"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

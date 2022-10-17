@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351308448447",
+    "project_id": "vjit-transit",
+    "storage_bucket": "vjit-transit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351308448447:android:c6fa2c7de02d681faebc0a",
+        "android_client_info": {
+          "package_name": "com.vjit.vjittransit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351308448447-j6i9pq2v51k0oe75g45gg5q474489sd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAltSTc42k1GusdGESJb_Els1JPU3gYg6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351308448447-j6i9pq2v51k0oe75g45gg5q474489sd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

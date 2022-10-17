@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alinear"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:layout_width="match_parent"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#96E5E7F1"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:cardMaxElevation="3dp"
+            app:contentPadding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Registration"
+                    android:textColor="#020202"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/GRAY" />
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Email"
+                    android:textColor="#020202"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/aemail"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    tools:ignore="Autofill">
+
+                </EditText>
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Password"
+                    android:textColor="#020202"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:inputType="textVisiblePassword"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/apassword"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    tools:ignore="Autofill,LabelFor">
+
+                </EditText
+                    >
+
+                <TextView
+
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Name"
+                    android:textColor="#020202"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/aname"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    tools:ignore="Autofill,LabelFor">
+
+                </EditText>
+
+                <TextView
+
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Phone no."
+                    android:textColor="#020202"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <EditText
+
+                    android:inputType="phone"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:fontFamily="@font/helvetica"
+                    android:id="@+id/aphone"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    tools:ignore="Autofill">
+
+                </EditText>
+
+
+
+                <TextView
+                    android:fontFamily="@font/helvetica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Position"
+                    android:textColor="#020202"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Spinner
+                    android:fontFamily="@font/helvetica"
+                    android:padding="10dp"
+                    android:popupBackground="#D3D5D3"
+                    android:id="@+id/aposition"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edittextbg"
+                    android:paddingStart="10dp"
+                    tools:ignore="RtlSymmetry">
+
+                </Spinner>
+
+                <ProgressBar
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:fontFamily="@font/helvetica"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:id="@+id/asubmit"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:textColor="#ffff"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#1db086"
+                    android:text="Submit"
+                    android:textStyle="normal">
+
+                </Button>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+</LinearLayout>
